@@ -8,4 +8,4 @@ Get private/protected property value <br />
 `$value = \TestProtected::getProtectedProperty( $obj, 'proprierty_name' );` <br />
 
 Invoke a private/protected method <br />
-`$result = \TestProtected::invokeProtectedMethod( $obj, 'method_name', \[ $arg_0, $arg_1 ] );` <br />
+`$result = \TestProtected::invokeProtectedMethod( $obj, 'method_name', [ $arg_0, $arg_1 ] );` <br />
