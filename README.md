@@ -1,11 +1,20 @@
 # TestProtected
 A little class that lets you handle the protected and private methods/properties of an object that you wish to run test on
 
-Set private/protected property value <br />
-`$obj = \TestProtected::setProtectedProperty( $obj, 'proprierty_name', 'value_set' );` <br />
+##### Set private/protected property value
 
-Get private/protected property value <br />
-`$value = \TestProtected::getProtectedProperty( $obj, 'proprierty_name' );` <br />
+```php
+$obj = \TestProtected::setProtectedProperty( $obj, 'proprierty_name', 'value_set' );
+```
 
-Invoke a private/protected method <br />
-`$result = \TestProtected::invokeProtectedMethod( $obj, 'method_name', [ $arg_0, $arg_1 ] );` <br />
+##### Get private/protected property value
+
+```php
+$value = \TestProtected::getProtectedProperty( $obj, 'proprierty_name' );
+```
+
+##### Invoke a private/protected method 
+
+```php
+$result = \TestProtected::invokeProtectedMethod( $obj, 'method_name', [ $arg_0, $arg_1 ] );
+```
